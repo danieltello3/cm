@@ -1,0 +1,27 @@
+.color-primary{
+    color: #1FA198;
+}
+
+.img-avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.color-primary-bg-btn{
+    background-color: #1FA198;
+    color: white;
+}
+
+.color-primary-bg-btn:hover{
+    color: white;
+    background-color: #119289;
+}
+
+.checked {
+    color: orange;
+}
+
+.color-primary-bg{
+    background-color: #1FA198;
+    color: white;
+}

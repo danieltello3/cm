@@ -1,0 +1,32 @@
+.color-primary-bg{
+    background-color: #1FA198;
+    color: white;
+}
+
+.color-primary-bg-btn{
+    background-color: #1FA198;
+    color: white;
+}
+
+.color-primary-bg-btn:hover{
+    color: white;
+    background-color: #119289;
+}
+
+.box-pago{
+    background-color: #1FA198;
+    color: white;
+    border-radius: 25px;
+    max-height: 120px;
+}
+
+.img-avatar {
+    width: 150px;
+    height: 150px;
+}
+
+#check {
+    fill: #119289;
+    width: 200px;
+    height: 200px;
+}

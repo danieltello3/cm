@@ -1,0 +1,16 @@
+.fondp-1{
+    background-color: rgb(167, 186, 186);
+    border-style: solid;
+}
+#header{
+    position: fixed;
+    opacity:80%;
+    z-index: 1000;
+  }
+.btn-primary{
+    background-color: #1FA198;
+    color: white;
+}
+body{
+    background-color: rgb(126, 151, 149);
+}

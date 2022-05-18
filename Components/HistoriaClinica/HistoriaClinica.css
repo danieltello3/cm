@@ -1,0 +1,34 @@
+.img-perfil {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.datos {
+    font-size: 1.2em;
+}
+
+.text-color-primary {
+    color:#1FA198;
+}
+
+.color-primary-bg{
+    background-color: #1FA198;
+    color: white;
+}
+
+
+.border-top-round{
+    border-radius: 25px 25px 0 0;
+}
+
+.body-border{
+    border-radius: 25px;
+    border: 1px solid #dadada;
+}
+
+/* Estilos Navbar */
