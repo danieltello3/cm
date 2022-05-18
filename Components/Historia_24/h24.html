@@ -10,20 +10,14 @@
          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
          crossorigin="anonymous"
       />
-      <link
-         rel="stylesheet"
-         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
-      />
-      <link rel="stylesheet" href="ReservaCita.css" />
-      <script defer src="ReservaCita.js"></script>
-      <link rel="stylesheet" href="../Navbar/navbar.css" />
       <script
          defer
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
          crossorigin="anonymous"
       ></script>
-      <title>Reservar Cita | 3</title>
+      <link rel="stylesheet" href="../Navbar/navbar.css" />
+      <title>Paciente | Editar Perfil</title>
    </head>
    <body class="d-flex flex-column min-vh-100">
       <header class="navbar navbar-light bg-light">
@@ -100,44 +94,31 @@
          </div>
       </header>
       <main class="container-fluid">
-         <div
-            class="d-flex flex-column w-75 mt-5 mx-auto shadow bg-body rounded"
-         >
-            <div class="d-flex justify-content-center mb-5">
-               <div class="border px-5 py-2">1</div>
-               <div class="border px-5 py-2">2</div>
-               <div class="border px-5 py-2 color-primary-bg">3</div>
-            </div>
-            <div class="d-flex flex-column justify-content-center mt-5" hidden>
-               <div class="d-flex justify-content-center">
-                  <svg
-                     xmlns="http://www.w3.org/2000/svg"
-                     id="check"
-                     class="bi bi-check2-circle"
-                     viewBox="0 0 16 16"
-                  >
-                     <path
-                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"
-                     />
-                     <path
-                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"
-                     />
-                  </svg>
-               </div>
-               <h3 class="display-4 mb-5 text-center">
-                  Pago realizado exitosamente
-               </h3>
-            </div>
-
-            <div class="d-flex justify-content-center">
-               <a
-                  class="btn fs-5 color-primary-bg-btn px-4 mb-4"
-                  role="button"
-                  href="../Historia28/index.html"
-               >
-                  Finalizar
-               </a>
-            </div>
+         <h2 class="my-3">Mi Perfil</h2>
+         <div class="mb-3 w-50">
+            <label for="txtname"> Nombre y Apellidos</label>
+            <input class="form-control" type="text" id="txtname" />
+         </div>
+         <div class="mb-3 w-50">
+            <label for="txtname"> Contraseña</label>
+            <input class="form-control" type="password" id="txtname" />
+         </div>
+         <div class="mb-3 w-25">
+            <label for="txtname"> Telefono</label>
+            <input class="form-control" type="number" id="txtname" />
+         </div>
+         <div class="mb-3 w-25">
+            <label for="txtname"> Nombre de usuario</label>
+            <input class="form-control" type="text" id="txtname" />
+         </div>
+         <div class="mb-3 w-25">
+            <label for="txtname"> Correo electronico</label>
+            <input class="form-control" type="email" id="txtname" />
+         </div>
+         <div>
+            <button class="btn color-primary-bg-btn" id="h24">
+               Confirmar cambios
+            </button>
          </div>
       </main>
       <footer

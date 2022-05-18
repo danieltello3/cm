@@ -26,7 +26,7 @@
          crossorigin="anonymous"
       ></script>
    </head>
-   <body>
+   <body class="d-flex flex-column min-vh-100">
       <header class="navbar navbar-light bg-light">
          <div class="container-fluid Navbar">
             <a class="navbar-brand" href="../../index.html">
@@ -45,8 +45,10 @@
                   href="../PreguntasFrecuentes/PreguntasFrecuentes.html"
                   >Preguntas Frecuentes</a
                >
-               <a class="mx-3" href="#">Blog</a>
-               <a class="mx-3" href="#">Contacto</a>
+               <a class="mx-3" href="../Historia_31/h31.html">Blog</a>
+               <a class="mx-3" href="../Historia_26/h26.html"
+                  >Portal de consultas</a
+               >
             </div>
             <div class="d-flex gap-2 align-items-center">
                <img
@@ -66,15 +68,28 @@
                      Usuario
                   </button>
                   <ul class="dropdown-menu dropdown-menu-end">
-                     <li><a class="dropdown-item" href="#">Perfil</a></li>
+                     <li>
+                        <a class="dropdown-item" href="../Historia23/index.html"
+                           >Perfil</a
+                        >
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="../Historia_24/h24.html"
+                           >Editar Perfil</a
+                        >
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="../Historia28/index.html"
+                           >Mis Citas Programadas</a
+                        >
+                     </li>
                      <li>
                         <a
                            class="dropdown-item"
                            href="../Atenciones/Atenciones.html"
-                           >Mis Citas</a
+                           >Mis Citas Realizadas</a
                         >
                      </li>
-                     <li><a class="dropdown-item" href="#">Ayuda</a></li>
                      <li>
                         <a class="dropdown-item" href="../../index.html"
                            >Cerrar Sesión</a
@@ -86,7 +101,9 @@
          </div>
       </header>
       <main class="container-fluid">
-         <h3 class="display-3 my-5 text-center color-primary">Mis Citas</h3>
+         <h3 class="display-3 my-5 text-center color-primary">
+            Mis Citas Realizadas
+         </h3>
          <div
             class="d-flex flex-column justify-content-center w-75 mx-auto"
             id="citasContainer"
@@ -98,7 +115,11 @@
          class="color-primary-bg mt-5 mx-0 container-fluid row d-flex justify-content-between"
       >
          <div class="col-md-4 d-flex flex-column footer-item text-center">
-            <a href="" class="py-2">Preguntas Frecuentes</a>
+            <a
+               href="../PreguntasFrecuentes/PreguntasFrecuentes.html"
+               class="py-2"
+               >Preguntas Frecuentes</a
+            >
             <a href="" class="py-2">Términos y condiciones</a>
          </div>
          <div

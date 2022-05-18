@@ -1,149 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Registro Usuario Médico</title>
-      <link
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
          rel="stylesheet"
          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-         crossorigin="anonymous"
-      />
-      <link
-         rel="stylesheet"
-         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
-      />
+         crossorigin="anonymous"/>
+      <script
+         defer
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+         crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="StyleMed.css" />
       <link rel="stylesheet" href="../Navbar/navbar.css" />
-      <link rel="stylesheet" href="../../styles/home.css" />
-   </head>
-
-   <body class="d-flex flex-column min-vh-100">
-      <header class="navbar navbar-light bg-light">
-         <div class="container-fluid Navbar">
-            <a class="navbar-brand" href="../../index.html">
-               <img
-                  src="../../Assets/Images/logo.png"
-                  alt=""
-                  width="30"
-                  height="30"
-                  class="d-inline-block align-text-top"
-               />
-               Citas Grupo 3
-            </a>
-            <div class="Navbar-item">
-               <a
-                  class="mx-3"
-                  href="../PreguntasFrecuentes/PreguntasFrecuentes.html"
-                  >Preguntas Frecuentes</a
-               >
-               <a class="mx-3" href="../Historia_31/h31.html">Blog</a>
-               <a class="mx-3" href="../Historia_26/h26.html"
-                  >Portal de consultas</a
-               >
-            </div>
-            <div>
-               <a
-                  href="../loginMedico/loginMedico.html"
-                  class="btn btn-outline-secondary"
-                  >¿Eres Médico?</a
-               >
-               <a
-                  href="../Login_21/Log_Paciente.html"
-                  class="btn color-primary-bg-btn"
-                  >Agenda una cita</a
-               >
-            </div>
+      <script src="StyleMed.css" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+   <header class="navbar navbar-light bg-light">
+      <div class="container-fluid Navbar">
+         <a class="navbar-brand" href="../../index.html">
+            <img
+               src="../../Assets/Images/logo.png"
+               alt=""
+               width="30"
+               height="30"
+               class="d-inline-block align-text-top"
+            />
+            Citas Grupo 3
+         </a>
+         <div class="Navbar-item">
+            <a class="mx-3" href="../PreguntasFrecuentes/PreguntasFrecuentes.html"
+               >Preguntas Frecuentes</a
+            >
+            <a class="mx-3" href="../Historia_31/h31.html">Blog</a>
+            <a class="mx-3" href="../Historia_26/h26.html">Portal de consultas</a>
          </div>
-      </header>
-
-      <div class="container-fluid">
-         <div class="row">
-            <div class="col-sm-6 p-5">
-               <h1>Registro de Medico Especialista</h1>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-sm-6 p-5">
-               <div class="form-floating mb-3">
-                  <input
-                     type="email"
-                     class="form-control"
-                     id="floatingInput"
-                     placeholder="name@example.com"
-                  />
-                  <label for="floatingInput">Direccion de correo</label>
-               </div>
-
-               <div class="form-floating mb-3">
-                  <input
-                     type="password"
-                     class="form-control"
-                     id="floatespecialidad"
-                     placeholder="Contraseña"
-                  />
-                  <label for="floatingPassword">Contraseña</label>
-               </div>
-
-               <div class="form-floating mb-3">
-                  <input
-                     type="password"
-                     class="form-control"
-                     id="confcontraseña"
-                     placeholder="Confirme Contraseña"
-                  />
-                  <label for="floatingPassword">Confirmar Contraseña</label>
-               </div>
-
-               <div class="form-floating mb-3">
-                  <div class="input-group">
-                     <span class="input-group-text">Nombre y Apellido</span>
-                     <input
-                        type="text"
-                        aria-label="Nombre"
-                        class="form-control"
-                     />
-                     <input
-                        type="text"
-                        aria-label="Apellido"
-                        class="form-control"
-                     />
-                  </div>
-               </div>
-
-               <div class="form-floating mb-3">
-                  <input
-                     type="text"
-                     class="form-control"
-                     id="floatespecialidad"
-                     placeholder="Especialidad"
-                  />
-                  <label for="floatingPassword">Especilidad</label>
-               </div>
-
-               <div>
-                  <a
-                     href="../loginMedico/loginMedico.html"
-                     class="btn color-primary-bg-btn"
-                     >Registrarse</a
-                  >
-                  <a href="" class="btn btn-outline-secondary"
-                     >¿Necesita ayuda?</a
-                  >
-               </div>
-            </div>
-            <div class="col-sm-6 p-5">
-               <img
-                  src="/Assets/Images/Imagen_H6.jpg"
-                  alt=""
-                  width="600"
-                  height="500"
-               />
+         <div class="d-flex gap-2 align-items-center">
+            <img
+               src="../../Assets/Images/perfil.jpg"
+               alt=""
+               width="30"
+               height="30"
+               class="d-inline-block align-text-top avatar-perfil"
+            />
+            <div class="input-group">
+               <button
+                  class="btn color-primary-btn dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="true"
+               >
+                  Usuario
+               </button>
+               <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                     <a class="dropdown-item" href="../Historia23/index.html"
+                        >Perfil</a
+                     >
+                  </li>
+                  <li>
+                     <a class="dropdown-item" href="../Historia_24/h24.html"
+                        >Editar Perfil</a
+                     >
+                  </li>
+                  <li>
+                     <a class="dropdown-item" href="../Historia28/index.html"
+                        >Mis Citas Programadas</a
+                     >
+                  </li>
+                  <li>
+                     <a class="dropdown-item" href="../Atenciones/Atenciones.html"
+                        >Mis Citas Realizadas</a
+                     >
+                  </li>
+                  <li>
+                     <a class="dropdown-item" href="../../index.html"
+                        >Cerrar Sesión</a
+                     >
+                  </li>
+               </ul>
             </div>
          </div>
       </div>
-      <footer
+   </header>
+    <section class="course">
+        <h1>Mis citas</h1>
+    
+         <div class="row">
+             <div class="course-col">
+                    <h3>29 de Mayo</h3>
+                    <p>07:30. Doctor House, Infectologia.</p>
+             </div>
+             <div class="course-col">
+                    <h3>01 de Junio</h3>
+                    <p>16:30. Doctora Cuddy, Medicina General.</p>
+                 </a>
+                
+            </div>
+            <div class="course-col">
+                    <h3>27 de Junio</h3>
+                    <p>18:00. Doctor House, Infectologia</p>
+                
+            </div>
+            <div class="course-col">
+                    <h3>14 de Julio</h3>
+                    <p>09:30. Doctor Chase, Cardiologia</p>
+            </div>
+         </div>
+    </section>
+    <footer
          class="mt-auto color-primary-bg mx-0 container-fluid row d-flex justify-content-between"
       >
          <div class="col-md-4 d-flex flex-column footer-item text-center">
@@ -215,5 +185,5 @@
             ></a>
          </div>
       </footer>
-   </body>
+</body>
 </html>

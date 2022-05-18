@@ -1,0 +1,257 @@
+.img-perfil {
+    width: 550px;
+    display: block;
+    border-radius: 20%;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.datos {
+    font-size: 1.2em;
+}
+
+.text-color-primary {
+    color:#1FA198;
+}
+
+.color-primary-bg{
+    background-color: #1FA198;
+    color: white;
+}
+
+
+.border-top-round{
+    border-radius: 25px 25px 0 0;
+}
+
+.body-border{
+    border-radius: 25px;
+    border: 1px solid #dadada;
+}
+
+/* Estilos Navbar */
+
+.menu-bar{
+    background: #1FA198;
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li{
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+    background: red;
+    border-radius: 3px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: #1FA198;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+
+.Datos-medico h1{
+    margin-top: 26px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 60px;
+}
+
+.Datos-medico label{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: left;
+    background: #1FA198;
+    padding: 20px;
+}
+
+.Datos-medico input{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: center;
+    background: #1FA198;
+    padding: 20px;
+    width: 75%;
+
+}
+
+.Datos-medico-2 label{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: left;
+    background: #1FA198;
+    padding: 20px;
+}
+
+.Datos-medico-2 input{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: center;
+    background: #1FA198;
+    padding: 20px;
+    width: 69%;
+
+}
+
+.Datos-medico-3 h1{
+    margin-top: 26px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 60px;
+}
+
+.Datos-medico-3 label{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: left;
+    background: #1FA198;
+    padding: 20px;
+}
+
+.Datos-medico-3 input{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: center;
+    background: #1FA198;
+    padding: 20px;
+    width: 48%;
+
+}
+
+.Datos-medico-4 label{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: left;
+    background: #1FA198;
+    padding: 20px;
+}
+
+.Datos-medico-4 input{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: center;
+    background: #1FA198;
+    padding: 20px;
+    width: 44%;
+
+}
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 75px;
+    font-weight: 600;
+}
+
+p{
+    color: black;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    text-decoration: none;
+    flex-basis: 23%;
+    background: #1FA198;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.course-col p{
+    text-align: center;
+}
+
+.boton-regreso p{
+    
+}

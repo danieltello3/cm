@@ -5,25 +5,22 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link
-         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
          rel="stylesheet"
-         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
          crossorigin="anonymous"
       />
-      <link
-         rel="stylesheet"
-         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
-      />
-      <link rel="stylesheet" href="ReservaCita.css" />
-      <script defer src="ReservaCita.js"></script>
-      <link rel="stylesheet" href="../Navbar/navbar.css" />
       <script
          defer
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
          crossorigin="anonymous"
       ></script>
-      <title>Reservar Cita | 3</title>
+      <link rel="stylesheet" href="StyleMed.css" />
+      <link rel="stylesheet" href="../Navbar/navbar.css" />
+      <script src="StyleMed.css" defer></script>
+      <title>Médico | Perfil</title>
+      <link rel="stylesheet" href="style.css" />
    </head>
    <body class="d-flex flex-column min-vh-100">
       <header class="navbar navbar-light bg-light">
@@ -51,7 +48,7 @@
             </div>
             <div class="d-flex gap-2 align-items-center">
                <img
-                  src="../../Assets/Images/perfil.jpg"
+                  src="../../Assets/Images/Avatar_doctor.png"
                   alt=""
                   width="30"
                   height="30"
@@ -64,29 +61,50 @@
                      data-bs-toggle="dropdown"
                      aria-expanded="true"
                   >
-                     Usuario
+                     Dr. House
                   </button>
                   <ul class="dropdown-menu dropdown-menu-end">
                      <li>
-                        <a class="dropdown-item" href="../Historia23/index.html"
+                        <a class="dropdown-item" href="../Historia10/Index.html"
                            >Perfil</a
                         >
                      </li>
                      <li>
-                        <a class="dropdown-item" href="../Historia_24/h24.html"
-                           >Editar Perfil</a
-                        >
-                     </li>
-                     <li>
-                        <a class="dropdown-item" href="../Historia28/index.html"
-                           >Mis Citas Programadas</a
+                        <a class="dropdown-item" href="../Historia_9/h9.html"
+                           >Disponibilidad</a
                         >
                      </li>
                      <li>
                         <a
                            class="dropdown-item"
-                           href="../Atenciones/Atenciones.html"
-                           >Mis Citas Realizadas</a
+                           href="../calendario1/index.html"
+                           >Calendario</a
+                        >
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="../Historia_11/h11.html"
+                           >Citas</a
+                        >
+                     </li>
+                     <li>
+                        <a
+                           class="dropdown-item"
+                           href="../Historico_17/Historico_Citas.html"
+                           >Historico</a
+                        >
+                     </li>
+                     <li>
+                        <a
+                           class="dropdown-item"
+                           href="../Preguntas_Privadas/PreguntasPriv.html"
+                           >Preguntas privadas</a
+                        >
+                     </li>
+                     <li>
+                        <a
+                           class="dropdown-item"
+                           href="../visualizarComentariosMedico/visualizarComentariosMedico.html"
+                           >Comentarios de pacientes</a
                         >
                      </li>
                      <li>
@@ -99,47 +117,48 @@
             </div>
          </div>
       </header>
-      <main class="container-fluid">
-         <div
-            class="d-flex flex-column w-75 mt-5 mx-auto shadow bg-body rounded"
-         >
-            <div class="d-flex justify-content-center mb-5">
-               <div class="border px-5 py-2">1</div>
-               <div class="border px-5 py-2">2</div>
-               <div class="border px-5 py-2 color-primary-bg">3</div>
-            </div>
-            <div class="d-flex flex-column justify-content-center mt-5" hidden>
-               <div class="d-flex justify-content-center">
-                  <svg
-                     xmlns="http://www.w3.org/2000/svg"
-                     id="check"
-                     class="bi bi-check2-circle"
-                     viewBox="0 0 16 16"
-                  >
-                     <path
-                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"
-                     />
-                     <path
-                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"
-                     />
-                  </svg>
-               </div>
-               <h3 class="display-4 mb-5 text-center">
-                  Pago realizado exitosamente
-               </h3>
-            </div>
+      <section class="course">
+         <h1>Menú de visualizacion</h1>
 
-            <div class="d-flex justify-content-center">
-               <a
-                  class="btn fs-5 color-primary-bg-btn px-4 mb-4"
-                  role="button"
-                  href="../Historia28/index.html"
-               >
-                  Finalizar
+         <div class="row row-cols-4 gap-2">
+            <div class="col course-col">
+               <a href="../Historia13/index.html">
+                  <h3>Proximas Citas</h3>
+                  <p>
+                     Haga click aqui para poder visualizar las proximas citas
+                     que usted estara atendiendo
+                  </p>
+               </a>
+            </div>
+            <div class="col course-col">
+               <a href="../calendario1/index.html">
+                  <h3>Calendario de Citas</h3>
+                  <p>
+                     Haga click aqui para poder visualizar el calendario de las
+                     citas que usted atendera
+                  </p>
+               </a>
+            </div>
+            <div class="course-col">
+               <a href="../Historia_11/h11.html">
+                  <h3>Historial de Citas</h3>
+                  <p>
+                     Haga click aqui para poder visualizar el historial de citas
+                     que usted ya antendio
+                  </p>
+               </a>
+            </div>
+            <div class="course-col">
+               <a href="../Preguntas_Privadas/PreguntasPriv.html">
+                  <h3>Preguntas de pacientes</h3>
+                  <p>
+                     Haga click aqui para ir a la seccion de preguntas de
+                     pacientes
+                  </p>
                </a>
             </div>
          </div>
-      </main>
+      </section>
       <footer
          class="mt-auto color-primary-bg mx-0 container-fluid row d-flex justify-content-between"
       >

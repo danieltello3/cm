@@ -1,0 +1,132 @@
+.img-perfil {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.datos {
+    font-size: 1.2em;
+}
+
+.text-color-primary {
+    color:#1FA198;
+}
+
+.color-primary-bg{
+    background-color: #1FA198;
+    color: white;
+}
+
+
+.border-top-round{
+    border-radius: 25px 25px 0 0;
+}
+
+.body-border{
+    border-radius: 25px;
+    border: 1px solid #dadada;
+}
+
+/* Estilos Navbar */
+
+.Datos-medico h1{
+    margin-top: 26px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 60px;
+}
+
+.Datos-medico label{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: left;
+    background: #1FA198;
+    padding: 20px;
+}
+
+.Datos-medico input{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: center;
+    padding: 20px;
+    width: 75%;
+
+}
+
+.Datos-medico-2 label{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: left;
+    background: #1FA198;
+    padding: 20px;
+}
+
+.Datos-medico-2 input{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: center;
+    padding: 20px;
+    width: 69%;
+
+}
+
+.Datos-medico-3 h1{
+    margin-top: 26px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 60px;
+}
+
+.Datos-medico-3 label{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: left;
+    background: #1FA198;
+    padding: 20px;
+}
+
+.Datos-medico-3 input{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: center;
+    padding: 20px;
+    width: 48%;
+
+}
+
+.Datos-medico-4 label{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: left;
+    background: #1FA198;
+    padding: 20px;
+}
+
+.Datos-medico-4 input{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    text-align: center;
+    padding: 20px;
+    width: 44%;
+
+}
